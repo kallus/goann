@@ -1,0 +1,4 @@
+mysql -uroot < create.sql
+mysql -uroot < drop.sql
+mysql -uroot goann
+mysql -uroot -e "help create table" | less
